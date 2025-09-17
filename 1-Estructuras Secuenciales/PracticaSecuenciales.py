@@ -77,7 +77,7 @@ print(f"Su IMC es: {imc}")
 
 #9) Crear un programa que pida al usuario una temperatura en grados Celsius e imprima por
 #pantalla su equivalente en grados Fahrenheit. Tener en cuenta la siguiente equivalencia:
-#𝑇𝑒𝑚𝑝𝑒𝑟𝑎𝑡𝑢𝑟𝑎 𝑒𝑛 𝐹𝑎ℎ𝑟𝑒𝑛ℎ𝑒𝑖𝑡 = 9/5.𝑇𝑒𝑚𝑝𝑒𝑟𝑎𝑡𝑢𝑟𝑎 𝑒𝑛 𝐶𝑒𝑙𝑠𝑖𝑢𝑠 + 32.
+#𝑇𝑒𝑚𝑝𝑒𝑟𝑎𝑡𝑢𝑟𝑎 𝑒𝑛 𝐹𝑎ℎ𝑟𝑒𝑛ℎ𝑒𝑖𝑡 = 9/5.𝑇𝑒𝑚𝑝𝑒𝑟𝑎𝑡𝑢𝑟𝑎 𝑒𝑛 𝐶𝑒𝑙𝑠𝑖𝑢𝑠 + 32
 
 gradosCelsius = float(input("Ingrese la temperatura en grados celsius: "))
 gradosFahrenheit = 9/5*gradosCelsius+32
